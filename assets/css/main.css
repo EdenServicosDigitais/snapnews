@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    font-size: 16pt;
+}
+
+.navbar {
+    padding-bottom: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 12pt;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+hr {
+    background-color: transparent;
+}
+
+.show-section {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    height: 600px;
+}
+
+.show-banner {
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image: url('../img/valheim-news.png');
+    background-position: center;
+    background-color: springgreen;
+    color: white;
+}
+
+#membros {
+    background-image: url('../img/membros-banner.png');
+    background-position: center;
+}
+
+.show-banner-content {
+    padding: 20px;
+    width: 60%;
+}
+
+.show-banner-content h1 {
+    font-size: 50pt;
+    padding-bottom: 20px;
+}
+
+.show-banner-content ul {
+    list-style: none;
+}
+
+.show-banner-content li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 16pt;
+}
+
+#first {
+    padding-left: 0;
+}
+
+.show-banner-content p {
+    padding-top: 20px;
+    font-size: 16pt;
+}
+
+.news img {
+    background-color: springgreen;
+    box-shadow: 5px 6px 6px rgba(0, 255, 128, 0.659);
+    border-radius: 4px;
+    width: 500px;
+    height: 280px;
+}
+
+.news-list {
+    display: flex;
+    justify-content: center;
+}
+
+.news-list-area {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 0;
+}
+
+.news-list-item {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news {
+    margin: 20px;
+    padding: 0px;
+    width: 500px;
+    height: 550px;
+}
+
+.news ul {
+    list-style: none;
+}
+
+.news li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.news h2 {
+    padding: 10px;
+}
+
+.news p {
+    text-align: justify;
+    line-height: 23px;
+}
+
+.campeonatos {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+.camps-list {
+    padding: 10px;
+    list-style: none;
+}
+
+.camps-list li>div {
+    background-color: #F8F9FA;
+    padding: 30px;
+    width: 300px;
+    margin: 20px;
+}
+
+.camps-list p, a, h2 {
+    padding: 10px;
+}
+
+.camps-list a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.camps-list a:hover {
+    text-decoration: underline;
+}
+
+#title-section {
+    padding-left: 20px;
+}
+
+#promo a {
+    color: #fa18ef;
+}
+
+.vantagens-membros {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.vatagens-area {
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.vatagens-area>div {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+}
+
+#regulamento{
+    width: 600px;
+    height: 800px;
+}
+
+#regulamento-img{
+    width: 600px;
+}
+.vantagem {
+    margin: 10px;
+}
+
+.vantagem h2 {
+    padding: 15px;
+    padding-left: 0;
+}
+
+.vantagem p {
+    padding: 15px;
+    padding-left: 0;
+    font-size: 15pt;
+    text-align: justify;
+}
+
+.vantagem a {
+    padding: 10px;
+    padding-left: 0;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.vantagem img {
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 5px 6px 6px rgba(0, 255, 128, 0.659);
+}
+
+.btn-action{
+    background-color: rgb(6, 211, 109);
+    border-radius: 4px;
+    width: 150px;
+    padding: 15px;
+    margin: 10px;
+    margin-left: 0;
+    text-align: center;
+}
+
+.btn-action a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+#championship{
+    background-image: url("../img/snap-champions-banner.png");
+    background-position: center;
+}
+
+.vantagem b{
+    font-weight: bold;
+}
